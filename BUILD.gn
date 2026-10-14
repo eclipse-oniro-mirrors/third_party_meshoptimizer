@@ -30,6 +30,8 @@ ohos_shared_library("meshoptimizer") {
     ]
     public_configs = [ ":meshoptimizer_headers_config" ]
 
+    version_script = "libmeshoptimizer.map"
+    
     part_name = "meshoptimizer"
     subsystem_name = "thirdparty"
 }
